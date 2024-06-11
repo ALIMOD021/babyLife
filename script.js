@@ -134,22 +134,3 @@ if (imageMainBoxWidth < 760) {
     }
     big()
 }
-// scrool animation
-document.addEventListener('DOMContentLoaded', () => {
-    let sections = Array.from(document.querySelectorAll('.section'))
-
-    document.addEventListener('scroll', showElements)
-    showElements()
-    function showElements() {
-        sections.forEach(section => {
-            if (section.offsetTop < window.scrollY + document.documentElement.clientHeight - 50) {
-                section.classList.add('show')
-                sections = sections.filter(item => item != section)
-            }
-
-        })
-        if (sections.length == 0) {
-            document.removeEventListener('scroll', showElements)
-        }
-    }
-})

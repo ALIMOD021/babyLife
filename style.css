@@ -280,25 +280,6 @@ ul {
     color: gray;
 }
 
-section {
-    background-color: #fefefe;
-    height: 200px;
-    border-radius: 20px;
-    width: 50%;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s ease-in-out;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.7rem;
-}
-
-section.show {
-    opacity: 1;
-    transform: translateY(0);
-}
-
 /* header responsiv */
 @media screen and (max-width:1314px) {
     .site-title {
