@@ -105,9 +105,9 @@ let imageMainBoxWidth = imageMainBox.offsetWidth
 if (imageMainBoxWidth < 760) {
     function small() {
         let headerImageStorageSmaller = [
-            { image_src: "https://sismoonimaryam.com/wp-content/uploads/2024/04/clothing_mobile1.jpg", image_link: "#" },
-            { image_src: "https://sismoonimaryam.com/wp-content/uploads/2024/04/room_mobile1.jpg", image_link: "#" },
-            { image_src: "https://sismoonimaryam.com/wp-content/uploads/2024/02/20240225_205904.jpg", image_link: "#" }
+            { image_src: "Images/small-image/20240225_205904.jpg", image_link: "#" },
+            { image_src: "Images/small-image/clothing_mobile1.jpg", image_link: "#" },
+            { image_src: "Images/small-image/room_mobile1.jpg", image_link: "#" }
         ]
         let randomeNumberImageSlider = 0
         setInterval(() => {
@@ -121,9 +121,9 @@ if (imageMainBoxWidth < 760) {
     function big() {
 
         let headerImageStorage = [
-            { image_src: "https://sismoonimaryam.com/wp-content/uploads/2024/03/20240229_233733-1920x690.jpg", image_link: "#" },
-            { image_src: "https://sismoonimaryam.com/wp-content/uploads/2024/04/room_desk1-scaled-1920x690.jpg", image_link: "#" },
-            { image_src: "https://sismoonimaryam.com/wp-content/uploads/2024/04/clothing_desk1-scaled-1920x690.jpg", image_link: "#" }
+            { image_src: "Images/big-images/20240229_233733-1920x690.jpg", image_link: "#" },
+            { image_src: "Images/big-images/clothing_desk1-scaled-1920x690.jpg", image_link: "#" },
+            { image_src: "Images/big-images/room_desk1-scaled-1920x690.jpg", image_link: "#" }
         ]
         let randomeNumberImageSlider = 0
         setInterval(() => {
